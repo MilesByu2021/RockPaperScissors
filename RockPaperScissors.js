@@ -40,7 +40,6 @@ const Game = () => {
     handGestureArray
   );
 
-  return gameResult;
+  return alert(gameResult);
 };
 
-alert(Game());
